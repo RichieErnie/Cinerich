@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useAppContext } from '../context/AppContext';
 import type { Movie } from '../types';
-import { getBackdropUrl, getReleaseYear, getRating } from '../utils/helpers';
+import { getBackdropUrl, getReleaseYear} from '../utils/helpers';
 import { AiFillStar } from 'react-icons/ai';
 import { BsBookmark, BsBookmarkFill } from 'react-icons/bs';
 
