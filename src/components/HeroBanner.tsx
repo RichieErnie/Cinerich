@@ -16,7 +16,6 @@ function HeroBanner({ movie }: HeroBannerProps) {
 
   const backdropUrl = getBackdropUrl(movie.poster_path);
   const releaseYear = getReleaseYear(movie.release_date);
-  const rating = getRating(movie.vote_average);
 
   const handleListClick = () => {
     if (saved) {

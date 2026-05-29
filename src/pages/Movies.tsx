@@ -12,7 +12,6 @@ import useDebounce from '../hooks/useDebounce';
 import SearchDropdown from '../components/SearchDropdown';
 import type { Movie, Genre } from '../types';
 import { AiOutlineSearch } from 'react-icons/ai';
-import { IoClose } from 'react-icons/io5';
 
 function Movies() {
   const [searchParams] = useSearchParams();
@@ -107,10 +106,6 @@ function Movies() {
     setSearchQuery(e.target.value);
     setPage(1);
     setSelectedGenre(null);
-  };
-
-  const handleClearSearch = () => {
-    setSearchQuery('');
   };
 
   function handleClearFilters() {

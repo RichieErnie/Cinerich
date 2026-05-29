@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useAppContext } from '../context/AppContext';
-import { IMAGE_BASE_URL } from '../api/tmdb';
 import type { Movie } from '../types';
-import { getPosterUrl, getReleaseYear, getRating } from '../utils/helpers';
+import { getPosterUrl, getReleaseYear} from '../utils/helpers';
 import { AiFillHeart, AiFillStar, AiOutlineHeart } from 'react-icons/ai';
 
 interface MovieCardProps {
