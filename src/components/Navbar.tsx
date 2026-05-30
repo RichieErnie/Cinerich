@@ -107,6 +107,15 @@ function Navbar() {
             >
               Home
             </Link>
+            {/* Testing home for git */}
+            <Link
+              to="/"
+              className={`text-sm transition-colors duration-200 ${
+                isActive('/') ? 'text-white font-medium' : 'text-white/50 hover:text-white'
+              }`}
+            >
+              Testing Home
+            </Link>
             <Link
               to="/movies"
               className={`text-sm transition-colors duration-200 ${
