@@ -4,8 +4,6 @@ A full-featured movie discovery web application built with React, TypeScript and
 
 🔗 **Live Demo:** [cinerich.vercel.app](https://cinerich.vercel.app)
 
-![CineRich Preview](./preview.png)
-
 ---
 
 ## Features
